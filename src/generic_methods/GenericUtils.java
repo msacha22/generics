@@ -7,11 +7,7 @@ public class GenericUtils {
 
     /**
      * Reverses the order of the elements in the given array.
-     * <p>
-     * The method performs the reversal directly inside the provided array,
-     * meaning no additional array is created. The first element becomes the
-     * last, the last becomes the first, and so on.
-     *
+     * The first element becomes the last, the last becomes the first, and so on.
      * @param <T>   the type of elements stored in the array
      * @param array the array whose elements should be reversed
      */
@@ -31,7 +27,6 @@ public class GenericUtils {
 
     /**
      * Calculates the sum of all elements in an array containing numbers.
-     * <p>
      * The method accepts arrays whose element types extend {@link Number}
      * (for example {@link Integer}, {@link Double}, {@link Float}, etc.).
      * Each value is converted to double using {@code doubleValue()} and
